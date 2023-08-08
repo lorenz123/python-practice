@@ -202,3 +202,26 @@ for number in numberExercise:
     result += number
 
 print(f"Result = {result}")
+
+numberWhile = 0
+# while numberWhile < 10:
+#     print(numberWhile)
+#     numberWhile += 1
+# else:
+#     print("else in while loop")
+
+# while numberWhile < 10:
+#     if numberWhile == 5:
+#         break
+#     numberWhile += 1
+#     print(numberWhile)
+# else:
+#     print("else in while loop")
+
+while numberWhile < 10:
+    numberWhile += 1
+    if numberWhile < 5:
+        continue
+    print(numberWhile)
+else:
+    print("else in while loop")
