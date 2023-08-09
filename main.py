@@ -225,3 +225,56 @@ while numberWhile < 10:
     print(numberWhile)
 else:
     print("else in while loop")
+
+def greet(name, age, addr = "Default"):
+    print(f"Hello {name}, your age is {age}, and address is {addr}")
+    if age > 18:
+        print(f"you are too told")
+
+greet("Lance", 22, "Prq")
+greet("Lance2", 23, "Test")
+greet("Lance23", 123, "taguig")
+greet("Lance23", 123)
+
+def is_adult(age):
+    if age >= 16:
+        print(f"Adult, your age is {age}")
+    else:
+        print("not yet an adult")
+is_adult(14)
+is_adult(17)
+is_adult(16)
+
+
+def is_adult2(age):
+    return "Adult" if age >= 16 else "Kid"
+
+print(is_adult2(14))
+print(is_adult2(16))
+print(is_adult2(147))
+
+def is_adult3(age):
+    return age >= 16
+
+print(is_adult3(14))
+print(is_adult3(16))
+print(is_adult3(147))
+
+def convertGender(gender = "unknown"):
+    if gender.upper() == "M":
+        return "Male"
+    elif gender.upper() == "F":
+        return "Female"
+    else:
+        return f"Gender is unknown {gender}"
+
+print(convertGender("F"))
+print(convertGender("f"))
+print(convertGender("M"))
+print(convertGender("m"))
+print(convertGender("hello"))
+
+#imports
+import math
+
+print(math.sqrt(225))
