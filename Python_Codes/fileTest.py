@@ -23,7 +23,7 @@
 #best practice, to check whether file is existing or not
 import os.path
 
-filename = "./data.csv"
+filename = "data.csv"
 if os.path.isfile(filename):
     with open(filename, "r") as file:
         print(file.read())

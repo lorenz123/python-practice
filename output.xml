@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on darwin)" generated="20230811 15:09:49.668" rpa="false" schemaversion="4">
+<suite id="s1" name="Tests" source="/Users/admin/PycharmProjects/my-python-app/Tests">
+<suite id="s1-s1" name="TestCase1" source="/Users/admin/PycharmProjects/my-python-app/Tests/TestCase1.robot">
+<test id="s1-s1-t1" name="TEST" line="10">
+<kw name="Log" library="BuiltIn">
+<arg>This is a sample test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230811 15:09:49.678" level="TRACE">Arguments: [ 'This is a sample test case' ]</msg>
+<msg timestamp="20230811 15:09:49.678" level="INFO">This is a sample test case</msg>
+<msg timestamp="20230811 15:09:49.678" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230811 15:09:49.678" endtime="20230811 15:09:49.678"/>
+</kw>
+<tag>demo1</tag>
+<status status="PASS" starttime="20230811 15:09:49.678" endtime="20230811 15:09:49.678"/>
+</test>
+<doc>This is my first test case</doc>
+<status status="PASS" starttime="20230811 15:09:49.676" endtime="20230811 15:09:49.679"/>
+</suite>
+<meta name="Randomized">Suites and tests (seed 1125906450747423832)</meta>
+<status status="PASS" starttime="20230811 15:09:49.668" endtime="20230811 15:09:49.679"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">demo1</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestCase1">Tests.TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

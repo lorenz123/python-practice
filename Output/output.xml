@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on darwin)" generated="20230814 17:53:08.897" rpa="false" schemaversion="4">
+<suite id="s1" name="TestCase1" source="/Users/admin/PycharmProjects/my-python-app/Tests/TestCase1.robot">
+<test id="s1-t1" name="TEST" line="45">
+<kw name="Log" library="BuiltIn">
+<arg>This is ${MY_VARIABLE} a sample test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [ 'This is my test variable a sample test case' ]</msg>
+<msg timestamp="20230814 17:53:08.909" level="INFO">This is my test variable a sample test case</msg>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.908" endtime="20230814 17:53:08.909"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>This is ${MY_LIST} a sample test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [ "This is ['test1', 'test2', 'test3'] a sample test case" ]</msg>
+<msg timestamp="20230814 17:53:08.909" level="INFO">This is ['test1', 'test2', 'test3'] a sample test case</msg>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.909"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>This is ${MY_LIST}[0] a sample test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [ 'This is test1 a sample test case' ]</msg>
+<msg timestamp="20230814 17:53:08.909" level="INFO">This is test1 a sample test case</msg>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.909"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>This is ${MY_DICTIONARY} a sample test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [ "This is {'username': 'test123', 'password': 'Aaaa1234#'} a sample test case" ]</msg>
+<msg timestamp="20230814 17:53:08.909" level="INFO">This is {'username': 'test123', 'password': 'Aaaa1234#'} a sample test case</msg>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.909"/>
+</kw>
+<kw name="Log My Username">
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [  ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>This is my username - ${MY_DICTIONARY}[username]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [ 'This is my username - test123' ]</msg>
+<msg timestamp="20230814 17:53:08.909" level="INFO">This is my username - test123</msg>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.909"/>
+</kw>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.909"/>
+</kw>
+<kw name="Log My Password">
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [  ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>This is my password - ${MY_DICTIONARY}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Arguments: [ 'This is my password - Aaaa1234#' ]</msg>
+<msg timestamp="20230814 17:53:08.909" level="INFO">This is my password - Aaaa1234#</msg>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.909"/>
+</kw>
+<msg timestamp="20230814 17:53:08.909" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.909"/>
+</kw>
+<kw name="Log Username And Password 1">
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [  ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>This is my username - ${MY_DICTIONARY}[username]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [ 'This is my username - test123' ]</msg>
+<msg timestamp="20230814 17:53:08.910" level="INFO">This is my username - test123</msg>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>This is my password - ${MY_DICTIONARY}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [ 'This is my password - Aaaa1234#' ]</msg>
+<msg timestamp="20230814 17:53:08.910" level="INFO">This is my password - Aaaa1234#</msg>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.909" endtime="20230814 17:53:08.910"/>
+</kw>
+<kw name="Log Username And Password 2">
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [  ]</msg>
+<kw name="Log My Username">
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [  ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>This is my username - ${MY_DICTIONARY}[username]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [ 'This is my username - test123' ]</msg>
+<msg timestamp="20230814 17:53:08.910" level="INFO">This is my username - test123</msg>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<kw name="Log My Password">
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [  ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>This is my password - ${MY_DICTIONARY}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [ 'This is my password - Aaaa1234#' ]</msg>
+<msg timestamp="20230814 17:53:08.910" level="INFO">This is my password - Aaaa1234#</msg>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<kw name="Log My Specific Username">
+<arg>${MY_DICTIONARY}[username]</arg>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [ ${USERNAME}='test123' ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>${USERNAME}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Arguments: [ 'test123' ]</msg>
+<msg timestamp="20230814 17:53:08.910" level="INFO">test123</msg>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<msg timestamp="20230814 17:53:08.910" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.910"/>
+</kw>
+<kw name="Log My Specific Username">
+<arg>${MY_DICTIONARY2}[username]</arg>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Arguments: [ ${USERNAME}='test321' ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>${USERNAME}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Arguments: [ 'test321' ]</msg>
+<msg timestamp="20230814 17:53:08.911" level="INFO">test321</msg>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.911" endtime="20230814 17:53:08.911"/>
+</kw>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.910" endtime="20230814 17:53:08.911"/>
+</kw>
+<kw name="Log My Specific Username And Password">
+<arg>${MY_DICTIONARY2.username}</arg>
+<arg>${MY_DICTIONARY2.password}</arg>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Arguments: [ ${USERNAME}='test321' | ${PASSWORD}='Aaaa321#' ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>${USERNAME} - ${PASSWORD}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Arguments: [ 'test321 - Aaaa321#' ]</msg>
+<msg timestamp="20230814 17:53:08.911" level="INFO">test321 - Aaaa321#</msg>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.911" endtime="20230814 17:53:08.911"/>
+</kw>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.911" endtime="20230814 17:53:08.911"/>
+</kw>
+<kw name="Log My Specific Username And Password 2">
+<arg>${MY_DICTIONARY2.username}</arg>
+<arg>${MY_DICTIONARY2.password}</arg>
+<msg timestamp="20230814 17:53:08.911" level="TRACE">Arguments: [ ${USERNAME}='test321' | ${PASSWORD}='Aaaa321#' ]</msg>
+<kw name="Log My Specific Username">
+<arg>${USERNAME}</arg>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Arguments: [ ${USERNAME}='test321' ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>${USERNAME}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Arguments: [ 'test321' ]</msg>
+<msg timestamp="20230814 17:53:08.912" level="INFO">test321</msg>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.912" endtime="20230814 17:53:08.912"/>
+</kw>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.912" endtime="20230814 17:53:08.912"/>
+</kw>
+<kw name="Log My Specific Password">
+<arg>${PASSWORD}</arg>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Arguments: [ ${PASSWORD}='Aaaa321#' ]</msg>
+<kw name="Log" library="BuiltIn">
+<arg>${PASSWORD}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Arguments: [ 'Aaaa321#' ]</msg>
+<msg timestamp="20230814 17:53:08.912" level="INFO">Aaaa321#</msg>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.912" endtime="20230814 17:53:08.912"/>
+</kw>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.912" endtime="20230814 17:53:08.912"/>
+</kw>
+<msg timestamp="20230814 17:53:08.912" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20230814 17:53:08.911" endtime="20230814 17:53:08.912"/>
+</kw>
+<tag>demo1</tag>
+<status status="PASS" starttime="20230814 17:53:08.908" endtime="20230814 17:53:08.912"/>
+</test>
+<doc>This is my first test case</doc>
+<status status="PASS" starttime="20230814 17:53:08.898" endtime="20230814 17:53:08.912"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">demo1</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCase1">TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
