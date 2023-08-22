@@ -3,6 +3,7 @@ Library    OperatingSystem
 
 *** Test Cases ***
 TEST
+    # TODO - move this keyboard to a variable
     Log    This is a sample test case
 
 TEST2
